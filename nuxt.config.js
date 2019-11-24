@@ -14,6 +14,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Playfair+Display&display=swap' }
+    ],
+    script: [
+      { src: 'https://kit.fontawesome.com/b464320c92.js', crossorigin: 'anonymous' }
     ]
   },
   /*
@@ -29,7 +32,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/fullpage', ssr: false }
+    { src: '~/plugins/fullpage', ssr: false },
+    /* { src: '~/plugins/fontawesome.js' } */
   ],
   /*
   ** Nuxt.js dev-modules

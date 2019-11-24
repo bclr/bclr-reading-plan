@@ -1,10 +1,6 @@
 <template>
-  <div class="card-deck">
-    <div class="card-body">
-      <div class="card-columns">
-        <day v-for="(day, index) in week.days" v-bind:key="day" v-bind:day="day" v-bind:number="index + 1" />
-      </div>
-    </div>
+  <div>
+    <day v-for="(day, index) in week.days" v-bind:key="day" v-bind:day="day" v-bind:number="index + 1" />
   </div>
 </template>
 

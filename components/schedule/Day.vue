@@ -1,15 +1,14 @@
 <template>
-  <div class="card">
-    <div class="card-body">
-      <span class="card-title lead">
-        Day {{ number }}
-      </span>
+  <div class="slide">
+    <div class="container">
+      <h2 class="day-title">Day {{ number }}</h2>
+      <ul class="list-group">
+        <li v-for="verse in verses" v-bind:key="verse" class="list-group-item">
+          <verse-ref v-bind:reference="verse" />
+          <i class="fab facebook"></i>
+        </li>
+      </ul>
     </div>
-    <ul class="list-group list-group-flush">
-      <li v-for="verse in verses" v-bind:key="verse" class="list-group-item">
-        <verse-ref v-bind:reference="verse" />
-      </li>
-    </ul>
   </div>
 </template>
 
@@ -39,7 +38,9 @@ export default {
 </script>
 
 <style scoped>
-  .card-title {
-    font-family: 'Playfair Display', serif;
+  .day-title {
+    color: #f8f9fa;
+    font-weight: 300;
+    padding-bottom: 1.875rem;
   }
 </style>

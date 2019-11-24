@@ -1,6 +1,6 @@
 <template>
   <div class="display-inline">
-    <a :href="bibleGatewayUrl" class="verse-ref">
+    <a :href="bibleGatewayUrl" class="serif verse-ref">
       {{ reference }}
     </a>
     &nbsp;
@@ -43,8 +43,8 @@ export default {
 </script>
 <style>
   .verse-ref {
-    font-family: 'Playfair Display', serif;
     color: #002345;
+    font-size: 1.5rem;
   }
   .youversion {
     width: 1.3rem;
