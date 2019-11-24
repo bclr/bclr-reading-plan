@@ -68,5 +68,11 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  pwa: {
+    manifest: {
+      name: 'BCLR Reading Plan',
+      lang: 'en'
+    }
   }
 }
