@@ -75,11 +75,11 @@ body {
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent rgba(255, 255, 255, 0.8) transparent transparent;
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent rgba(255, 255, 255, 0.8);
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
 }
 </style>
