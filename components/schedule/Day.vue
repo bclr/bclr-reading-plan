@@ -1,11 +1,12 @@
 <template>
   <div class="slide">
     <div class="container">
-      <h2 class="day-title">Day {{ number }}</h2>
+      <h2 class="day-title">
+        Day {{ number }}
+      </h2>
       <ul class="list-group">
         <li v-for="verse in verses" v-bind:key="verse" class="list-group-item">
           <verse-ref v-bind:reference="verse" />
-          <i class="fab facebook"></i>
         </li>
       </ul>
     </div>

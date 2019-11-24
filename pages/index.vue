@@ -1,21 +1,35 @@
 <template>
   <div>
-    <nav id="header" class="navbar navbar-expand-lg navbar-light">
-      <div class="navbar-nav mx-auto">
+    <nav id="header" class="navbar fixed-top navbar-light navbar-expand-lg navbar-template">
+      <a class="navbar-brand" href="/">
         <logo />
-        &nbsp;
-        <h1 class="display-4 title">
-          <span class="d-none d-lg-inline">BCLR Reading Plan</span>
-        </h1>
+        BCLR Reading Plan
+      </a>
+      <div class="d-flex flex-row order-2 order-lg-3">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-      <social />
+      <div id="hamburger" class="collapse navbar-collapse order-3 order-lg-2">
+        <social />
+      </div>
     </nav>
     <full-page :options="options">
       <weeks-slider />
     </full-page>
   </div>
 </template>
-
+/*
+    <nav class="navbar navbar-expand-lg ">
+      <div class="navbar-nav brand mx-auto">
+        <logo />
+        &nbsp;
+        <h1 class="display-4 title">
+          <span class="d-none d-lg-inline">BCLR Reading Plan</span>
+        </h1>
+      </div>
+    </nav>
+*/
 <script>
 import WeeksSlider from '~/components/schedule/WeeksSlider'
 import Logo from '~/components/Logo'
@@ -47,13 +61,14 @@ body {
 }
 
 #header {
-  position:fixed;
+  /* position:fixed;
   width: 100%;
-  height: 3.25em;
+  */
   z-index:9;
   background-color: #EDEDED;
   color: #003366;
 }
+
 .title {
   font-size: 2rem;
 }
