@@ -19,17 +19,7 @@
     </full-page>
   </div>
 </template>
-/*
-    <nav class="navbar navbar-expand-lg ">
-      <div class="navbar-nav brand mx-auto">
-        <logo />
-        &nbsp;
-        <h1 class="display-4 title">
-          <span class="d-none d-lg-inline">BCLR Reading Plan</span>
-        </h1>
-      </div>
-    </nav>
-*/
+
 <script>
 import WeeksSlider from '~/components/schedule/WeeksSlider'
 import Logo from '~/components/Logo'
@@ -61,28 +51,35 @@ body {
 }
 
 #header {
-  /* position:fixed;
-  width: 100%;
-  */
   z-index:9;
   background-color: #EDEDED;
   color: #003366;
 }
-
 .title {
   font-size: 2rem;
 }
 .serif {
   font-family: 'Playfair Display', serif;
 }
-/*
-.title {
-  display: block;
-  font-family: 'Playfair Display', serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  font-size: 3rem;
-  color: #F8F9FA;
+.fp-controlArrow {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
 }
-*/
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent rgba(255, 255, 255, 0.8) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.8);
+}
 </style>
