@@ -49,7 +49,6 @@ body {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
-
 #header {
   z-index:9;
   background-color: #EDEDED;

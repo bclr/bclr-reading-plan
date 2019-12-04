@@ -5,8 +5,8 @@
     </h2>
     <h3 class="text-light">Week {{ number }}</h3>
     <p class="lead text-light">
-      <span>{{ startOfIsoWeek(number).format('dddd, MMMM D') }}</span>&nbsp;&ndash;
-      <span>{{ startOfIsoWeek(number).add(6, 'days').format('dddd, MMMM D') }}</span>
+      <span>{{ startOfWeek(number).format('dddd, MMMM D') }}</span>&nbsp;&ndash;
+      <span>{{ startOfWeek(number).add(6, 'days').format('dddd, MMMM D') }}</span>
     </p>
   </div>
 </template>
@@ -21,15 +21,16 @@ export default {
   },
   data () {
     return {
-      isoWeekYear: this.$moment().isoWeekYear()
+      year: this.$moment().year()
     }
   },
   methods: {
-    startOfIsoWeek (weekNumber) {
+    startOfWeek (weekNumber) {
       return this.$moment()
-        .isoWeekYear(this.isoWeekYear)
-        .isoWeekday(1)
-        .isoWeek(weekNumber)
+        .year(this.year)
+        .weekday(1)
+        .week(weekNumber)
+        .subtract(1, 'day')
     }
   }
 }
