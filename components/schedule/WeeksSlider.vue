@@ -1,16 +1,11 @@
-<template>
-  <div>
-    <div v-for="(week, index) in weeks" v-bind:key="week.week" v-bind:class="['section', { 'active': isCurrentWeek(week.week) }, 'bg-bclr']">
-      <div>
-        <div class="container-fluid">
-          <heading v-bind:number="index + 1" />
-          <div>
-            <week v-bind:week="week" v-bind:number="index + 1" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  div
+    div(v-for="(week, index) in weeks" :key="week.week" :class="['section', { 'active': isCurrentWeek(week.week) }, 'bg-bclr']")
+      div
+        .container-fluid
+          heading(:number="index + 1")
+          div
+            week(:week="week" :number="index + 1")
 </template>
 
 <script>

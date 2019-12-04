@@ -1,23 +1,16 @@
-<template>
-  <div>
-    <nav id="header" class="navbar fixed-top navbar-light navbar-expand-lg navbar-template">
-      <a class="navbar-brand" href="/">
-        <logo />
-        BCLR Reading Plan
-      </a>
-      <div class="d-flex flex-row order-2 order-lg-3">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div id="hamburger" class="collapse navbar-collapse order-3 order-lg-2">
-        <social />
-      </div>
-    </nav>
-    <full-page :options="options">
-      <weeks-slider />
-    </full-page>
-  </div>
+<template lang="pug">
+  div
+    nav#header.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template
+      a.navbar-brand(href="/")
+        logo
+        | BCLR Reading Plan
+      .d-flex.flex-row.order-2.order-lg-3
+        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#hamburger")
+          span.navbar-toggler-icon
+      #hamburger.collapse.navbar-collapse.order-3.order-lg-2
+        social
+    full-page(:options="options")
+      weeks-slider
 </template>
 
 <script>

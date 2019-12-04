@@ -1,5 +1,5 @@
-<template>
-  <img class="logo" src="~/assets/bclr.svg" type="image/svg+xml" />
+<template lang="pug">
+  img.logo(src="~/assets/bclr.svg", type="image/svg+xml")
 </template>
 
 <style>

@@ -1,26 +1,17 @@
-<template>
-  <ul class="navbar-nav ml-auto">
-    <li class="nav-item">
-      <a href="https://bclr.org/" class="nav-link px-2">
-        <i class="fa-2x fas fa-globe"></i>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="https://www.facebook.com/biblechurchlr/" class="nav-link px-2">
-        <i class="fa-2x fab fa-facebook"></i>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="https://twitter.com/biblechurchlr" class="nav-link px-2">
-        <i class="fa-2x fab fa-twitter"></i>
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="https://www.instagram.com/biblechurchlr/" class="nav-link px-2">
-        <i class="fa-2x fab fa-instagram"></i>
-      </a>
-    </li>
-  </ul>
+<template lang="pug">
+  ul.navbar-nav.ml-auto
+    li.nav-item
+      a.nav-link.px-2(href="https://bclr.org/")
+        i.fa-2x.fas.fa-globe
+    li.nav-item
+      a.nav-link.px-2(href="https://www.facebook.com/biblechurchlr/")
+        i.fa-2x.fab.fa-facebook
+    li.nav-item
+      a.nav-link.px-2(href="https://twitter.com/biblechurchlr")
+        i.fa-2x.fab.fa-twitter
+    li.nav-item
+      a.nav-link.px-2(href="https://www.instagram.com/biblechurchlr/")
+        i.fa-2x.fab.fa-instagram
 </template>
 
 <style scoped>

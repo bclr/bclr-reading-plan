@@ -1,16 +1,10 @@
-<template>
-  <div class="slide">
-    <div class="container">
-      <h2 class="day-title">
-        Day {{ number }}
-      </h2>
-      <ul class="list-group">
-        <li v-for="verse in verses" v-bind:key="verse" class="list-group-item">
-          <verse-ref v-bind:reference="verse" />
-        </li>
-      </ul>
-    </div>
-  </div>
+<template lang="pug">
+  .slide
+    .container
+      h2.day-title Day {{ number }}
+      ul.list-group
+        li.list-group-item(v-for="verse in verses" :key="verse")
+          verse-ref(:reference="verse")
 </template>
 
 <script>

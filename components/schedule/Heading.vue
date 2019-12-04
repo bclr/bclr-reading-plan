@@ -1,14 +1,11 @@
-<template>
-  <div>
-    <h2 class="display-4 text-light">
-      Weekly Reading Plan
-    </h2>
-    <h3 class="text-light">Week {{ number }}</h3>
-    <p class="lead text-light">
-      <span>{{ startOfWeek(number).format('dddd, MMMM D') }}</span>&nbsp;&ndash;
-      <span>{{ startOfWeek(number).add(6, 'days').format('dddd, MMMM D') }}</span>
-    </p>
-  </div>
+<template lang="pug">
+  div
+    h2.display-4.text-light Weekly Reading Plan
+    h3.text-light Week {{ number }}
+    p.lead.text-light
+      span {{ startOfWeek(number).format('dddd, MMMM D') }}
+      span.mx-2 &ndash;
+      span {{ startOfWeek(number).add(6, 'days').format('dddd, MMMM D') }}
 </template>
 
 <script>

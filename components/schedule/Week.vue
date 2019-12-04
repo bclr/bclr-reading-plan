@@ -1,7 +1,6 @@
-<template>
-  <div>
-    <day v-for="(day, index) in week.days" v-bind:key="day" v-bind:day="day" v-bind:number="index + 1" />
-  </div>
+<template lang="pug">
+  div
+    day(v-for="(day, index) in week.days" :key="day" :day="day" :number="index + 1")
 </template>
 
 <script>

@@ -1,17 +1,10 @@
-<template>
-  <div class="display-inline">
-    <a :href="bibleGatewayUrl" class="serif verse-ref">
-      {{ reference }}
-    </a>
-    &nbsp;
-    <a :href="youversionUrl">
-      <img src="~/assets/youversion_icon.png" class="youversion" />
-    </a>
-    &nbsp;
-    <a :href="olivetreeUrl">
-      <img src="~/assets/olivetree_icon.png" class="olivetree" />
-    </a>
-  </div>
+<template lang="pug">
+  .display-inline
+    a.serif.verse-ref.mr-3(:href="bibleGatewayUrl") {{ reference }}
+    a.mr-3(:href="youversionUrl")
+      img.youversion(src="~/assets/youversion_icon.png")
+    a.mr-3(:href="olivetreeUrl")
+      img.olivetree(src="~/assets/olivetree_icon.png")
 </template>
 
 <script>
