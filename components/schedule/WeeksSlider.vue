@@ -6,6 +6,10 @@
           heading(:number="index + 1")
           div
             week(:week="week" :number="index + 1")
+          .pt-4
+            a.btn.btn-outline-dark.text-light(href="https://fivedaybiblereading.com/FiveBibleReadingSchedule2019.pdf")
+              span Download Full Plan&nbsp;
+              i.fa.fas.fa-download
 </template>
 
 <script>
