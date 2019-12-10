@@ -1,13 +1,11 @@
 <template lang="pug">
   div
-    nav#header.navbar.fixed-top.navbar-light.navbar-expand-lg.navbar-template
-      a.navbar-brand(href="/")
+    b-navbar(toggleable="lg", fixed="top", variant="light")
+      b-navbar-brand.navbar-brand(href="/")
         logo
         | BCLR Reading Plan
-      .d-flex.flex-row.order-2.order-lg-3
-        button.navbar-toggler(type="button", data-toggle="collapse", data-target="#hamburger")
-          span.navbar-toggler-icon
-      #hamburger.collapse.navbar-collapse.order-3.order-lg-2
+      b-navbar-toggle(target="nav-collapse")
+      b-collapse#nav-collapse(is-nav)
         social
     full-page(:options="options")
       weeks-slider
