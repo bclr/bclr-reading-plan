@@ -33,6 +33,8 @@ export default {
   */
   plugins: [
     { src: '~/plugins/fullpage', ssr: false },
+    { src: '~/plugins/vue-i18n', ssr: false }
+
     /* { src: '~/plugins/fontawesome.js' } */
   ],
   /*
