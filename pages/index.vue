@@ -8,15 +8,11 @@
 <script>
 import Navbar from '~/components/Navbar'
 import WeeksSlider from '~/components/schedule/WeeksSlider'
-import Logo from '~/components/Logo'
-import Social from '~/components/Social'
 
 export default {
   components: {
     Navbar,
-    WeeksSlider,
-    Logo,
-    Social
+    WeeksSlider
   },
   data () {
     return {

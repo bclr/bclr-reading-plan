@@ -12,6 +12,13 @@
 </template>
 
 <script>
+import Logo from '~/components/Logo'
+import Social from '~/components/Social'
+
 export default {
+  components: {
+    Logo,
+    Social
+  }
 }
 </script>
