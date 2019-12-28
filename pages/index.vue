@@ -1,15 +1,6 @@
 <template lang="pug">
   div
-    b-navbar(toggleable="lg", fixed="top", variant="light")
-      b-navbar-brand.navbar-brand(href="/")
-        logo
-        | {{ $t('title') }}
-      b-navbar-toggle(target="nav-collapse")
-      b-collapse#nav-collapse(is-nav)
-        social
-      ul.navbar-nav.flex-row
-        li.nav-item
-          a.nav-link.px-1(href="#") About
+    navbar
     full-page(:options="options")
       weeks-slider
 </template>
