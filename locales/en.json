@@ -1,11 +1,19 @@
 {
-    "title": "BCLR Reading Plan",
+    "title": "BCLR Reading Together",
     "links": {
     },
-    "home": {
+    "heading": {
+      "tagline": "Reading Together Plan",
+      "week": "Week"
+    },
+    "day": {
+      "title": "Day"
     },
     "about": {
       "title": "About"
+    },
+    "actions": {
+      "download": "Download Full Plan"
     }
   }
   

@@ -6,21 +6,21 @@
           heading(:number="index + 1")
           div
             week(:week="week" :number="index + 1")
-          .pt-4
-            a.btn.btn-outline-dark.text-light(href="https://fivedaybiblereading.com/FiveBibleReadingSchedule2019.pdf")
-              span Download Full Plan&nbsp;
-              i.fa.fas.fa-download
+          actions
 </template>
 
 <script>
 import Week from '~/components/schedule/Week'
 import Heading from '~/components/schedule/Heading'
+import Actions from '~/components/schedule/Actions'
+
 import weeksData from '~/static/ReadingPlan.json'
 
 export default {
   components: {
     Heading,
-    Week
+    Week,
+    Actions
   },
   data () {
     return {

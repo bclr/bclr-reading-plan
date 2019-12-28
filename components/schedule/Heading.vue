@@ -1,7 +1,7 @@
 <template lang="pug">
   div
-    h2.display-4.text-light Weekly Reading Plan
-    h3.text-light Week {{ number }}
+    h2.display-4.text-light {{ $t('heading.tagline') }}
+    h3.text-light {{ $t('heading.week') }} {{ number }}
     p.lead.text-light
       span {{ startOfWeek(number).format('dddd, MMMM D') }}
       span.mx-2 &ndash;

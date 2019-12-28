@@ -1,7 +1,7 @@
 <template lang="pug">
   .slide
     .container
-      h2.day-title Day {{ number }}
+      h2.day-title {{ $t('day.title') }} {{ number }}
       ul.list-group
         li.list-group-item(v-for="verse in verses" :key="verse")
           verse-ref(:reference="verse")
