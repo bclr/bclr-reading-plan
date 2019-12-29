@@ -8,7 +8,7 @@
       social
     ul.navbar-nav.flex-row
       li.nav-item
-        a.nav-link.px-1(href="#") About
+        a.nav-link.px-1(href="#") {{ $t('about.title') }}
 </template>
 
 <script>
