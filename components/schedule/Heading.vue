@@ -34,5 +34,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .lead {
+    font-size: 1.15em;
+  }
 </style>

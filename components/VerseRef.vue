@@ -1,7 +1,7 @@
 <template lang="pug">
   .display-inline
     a.serif.verse-ref.mr-3(:href="bibleGatewayUrl") {{ reference }}
-    a.mr-3(:href="youversionUrl")
+    a.d-none.mr-3(:href="youversionUrl")
       img.youversion(src="~/assets/youversion_icon.png")
     a.mr-3(:href="olivetreeUrl")
       img.olivetree(src="~/assets/olivetree_icon.png")
