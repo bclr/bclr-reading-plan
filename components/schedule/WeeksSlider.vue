@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     isCurrentWeek (weekNumber) {
-      return this.$moment().isoWeek() === parseInt(weekNumber)
+      return this.$moment().week() === parseInt(weekNumber)
     }
   }
 }
