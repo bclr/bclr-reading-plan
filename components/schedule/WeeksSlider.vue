@@ -14,7 +14,7 @@ import Week from '~/components/schedule/Week'
 import Heading from '~/components/schedule/Heading'
 import Actions from '~/components/schedule/Actions'
 
-import weeksData from '~/static/ReadingPlan.json'
+import weeksData from '~/static/ReadingPlan2020.json'
 
 export default {
   components: {

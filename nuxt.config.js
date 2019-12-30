@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'BCLR Weekly Reading Plan',
+    title: 'BCLR Reading Together 2020 Plan',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -73,7 +73,7 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'BCLR Reading Plan',
+      name: 'BCLR Reading Together',
       lang: 'en'
     }
   }
