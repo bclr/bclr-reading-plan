@@ -61,9 +61,6 @@ export default {
   */
   axios: {
   },
-  /*
-  ** Build configuration
-  */
   build: {
     /*
     ** You can extend webpack config here
@@ -75,6 +72,28 @@ export default {
     manifest: {
       name: 'BCLR Reading Together',
       lang: 'en'
+    },
+    workbox: {
+      runtimeCaching: [
+        {
+          urlPattern: 'https://fonts.googleapis.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+        },
+        {
+          urlPattern: 'https://fonts.gstatic.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+        },
+        {
+          urlPattern: 'https://kit.fontawesome.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+        }
+      ]
     }
   }
 }
