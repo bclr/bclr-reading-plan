@@ -13,10 +13,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Playfair+Display&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Playfair+Display&display=swap', defer: true }
     ],
     script: [
-      { src: 'https://kit.fontawesome.com/b464320c92.js', crossorigin: 'anonymous' }
+      { src: 'https://kit.fontawesome.com/b464320c92.js', crossorigin: 'anonymous', defer: true }
     ]
   },
   /*
