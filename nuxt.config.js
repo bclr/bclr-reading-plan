@@ -32,9 +32,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/fullpage', ssr: false },
-    { src: '~/plugins/vue-i18n', ssr: false }
-
+    { src: '~/plugins/fullpage', ssr: true },
+    { src: '~/plugins/vue-i18n', ssr: true }
     /* { src: '~/plugins/fontawesome.js' } */
   ],
   /*

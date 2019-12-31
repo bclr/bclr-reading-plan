@@ -21,6 +21,7 @@
     "hooper": "^0.3.4",
     "nuxt": "^2.0.0",
     "nuxt-fullpage.js": "0.0.3",
+    "nuxt-i18n": "^6.4.1",
     "vue-i18n": "^8.15.1"
   },
   "devDependencies": {
