@@ -36,32 +36,5 @@ export default {
 </script>
 
 <style>
-.container-fluid {
-  margin: 0 auto;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-top: 6rem;
-}
-.section {
-  background-color: #002345;
-}
-.bg-bclr {
-  background-image: url('~assets/bclr.svg');
-  background-size: 110%;
-  background-position-x: 20%;
-  background-position-y: 10%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-@media only screen and (max-width: 768px) {
-  .bg-bclr  {
-    background-size: auto 110%;
-    background-position-x: 20%;
-    background-position-y: 10%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
+
 </style>

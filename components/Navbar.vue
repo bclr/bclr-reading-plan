@@ -8,7 +8,7 @@
       social
     ul.navbar-nav.flex-row
       li.nav-item
-        a.nav-link.px-1(href="#") {{ $t('about.title') }}
+        nuxt-link.nav-link.px-1(to="/about") {{ $t('about.title') }}
 </template>
 
 <script>

@@ -92,6 +92,11 @@ export default {
           handler: 'cacheFirst',
           method: 'GET',
           strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+        },
+        {
+          urlPattern: /\.pdf$/,
+          handler: 'networkFirst',
+          options: { cache: { name: 'pdfs' } }
         }
       ]
     }

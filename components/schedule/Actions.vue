@@ -9,3 +9,9 @@
 export default {
 }
 </script>
+
+<style scoped>
+  .btn-outline-dark {
+    border-color: #f8f9fa;
+  }
+</style>
