@@ -53,6 +53,14 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   }
 
+  .title {
+    font-size: 2rem;
+  }
+
+  .serif {
+    font-family: 'Playfair Display', serif;
+  }
+
   *,
   *:before,
   *:after {
@@ -89,23 +97,10 @@ export default {
     background-color: #35495e;
   }
 
-  body {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  }
-
   #header {
     z-index:9;
     background-color: #EDEDED;
     color: #003366;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .serif {
-    font-family: 'Playfair Display', serif;
   }
 
   .fp-controlArrow {
@@ -140,6 +135,7 @@ export default {
     text-align: center;
     padding-top: 6rem;
   }
+
   .section {
     background-color: #002345;
   }
