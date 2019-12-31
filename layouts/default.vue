@@ -10,14 +10,17 @@
     navbar
     full-page(:options="options")
       nuxt
+    footer-links
 </template>
 
 <script>
 import Navbar from '~/components/Navbar'
+import FooterLinks from '~/components/FooterLinks'
 
 export default {
   components: {
-    Navbar
+    Navbar,
+    FooterLinks
   },
   data () {
     return {
