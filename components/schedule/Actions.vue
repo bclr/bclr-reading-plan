@@ -3,6 +3,9 @@
     a.btn.btn-outline-dark.text-light(href="/2020BCLRReadingTogether.pdf")
       span {{ $t('actions.download') }} &nbsp;
       i.fa.fas.fa-download
+    a.m-1.btn.btn-outline-dark.text-light(href="/primer")
+      span {{ $t('actions.read_primer') }} &nbsp;
+      i.fa.fas.fa-book
 </template>
 
 <script>

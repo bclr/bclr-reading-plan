@@ -15,8 +15,12 @@
   "contact": {
     "title": "Contact Us"
   },
+  "primer": {
+    "title": "Primer"
+  },
   "actions": {
-    "download": "Download Full Plan"
+    "download": "Download Full Plan",
+    "read_primer": "Read Primer"
   },
   "bible": {
     "books": [

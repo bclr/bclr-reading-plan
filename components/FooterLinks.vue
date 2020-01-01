@@ -55,7 +55,7 @@ export default {
   }
 
   .section {
-    background-color: #002345 !important;
+    background-color: #002345;
   }
   .bg-bclr {
     background-image: url('~assets/bclr.svg');

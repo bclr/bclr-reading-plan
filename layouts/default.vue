@@ -8,7 +8,7 @@
     meta(name="msapplication-TileColor" content="#da532c")
     meta(name="theme-color" content="#ffffff")
     navbar
-    full-page(:options="options")
+    full-page(:options="options" ref="fullpage" id="fullpage")
       nuxt
     footer-links
 </template>
@@ -31,6 +31,10 @@ export default {
         css3: true
       }
     }
+  },
+  beforeMount () {
+    // console.log(this.$refs.fullpage)
+    // this.$refs.fullpage.api.silentMoveTo(1)
   }
 }
 </script>
