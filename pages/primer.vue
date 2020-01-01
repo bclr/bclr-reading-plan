@@ -44,7 +44,8 @@
           cite
             sup 1
             | Adler and Van Doren, How to Read a Book, 294.
-          p.my-6 &nbsp;
+          p.m-5 &nbsp;
+          p.m-5 &nbsp;
 </template>
 
 <script>
