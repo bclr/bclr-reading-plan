@@ -28,6 +28,7 @@ export default {
         licenseKey: 'YOUR KEY HERE',
         controlArrows: true,
         verticalCentered: false,
+        scrollOverflow: true,
         css3: true
       }
     }
