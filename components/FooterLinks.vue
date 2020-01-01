@@ -24,7 +24,7 @@ export default {
   .fp-controlArrow {
     position: absolute;
     z-index: 4;
-    top: 50%;
+    top: 33% !important;
     cursor: pointer;
     width: 0;
     height: 0;
