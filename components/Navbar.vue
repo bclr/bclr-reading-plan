@@ -9,7 +9,6 @@
         nuxt-link.nav-link.px-1(to="/about") {{ $t('about.title') }}
       .nav-item
         a.nav-link.px-1(href="https://www.bclr.org/contact/") {{ $t('contact.title') }}
-
 </template>
 
 <script>

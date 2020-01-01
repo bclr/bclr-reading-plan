@@ -1,6 +1,6 @@
 <template lang="pug">
   .container-fluid.section.bg-bclr
-    .text-light
+    .slide.text-light
       h2.display-4 {{ $t('about.title') }}
       p.lead Reading plan adapted from &nbsp;
         a(href="https://fivedaybiblereading.com/") https://fivedaybiblereading.com/
