@@ -11,7 +11,7 @@
               cite Psalm 19:10
 
           p Mortimer Adler and Charles Van Doren claimed that more books have been written on how to read the Bible than have been written on any other aspect of reading.
-          sup 1
+            sup 1
           |  We pray that this all-too-brief primer may encourage those who have been reading the Scriptures for decades as well as those who are just beginning to take it seriously.
 
           p The method of reading God’s word with benefit can be reduced to 3 basic questions that can be applied to any reading: 1) What’s the big idea? 2) What are the little details? and 3) Why should I care? Let’s briefly take each in turn.
@@ -44,7 +44,9 @@
             footer.blockquote-footer
               cite Psalm 19:14
 
-          cite Adler and Van Doren, How to Read a Book, 294.
+          cite
+            sup 1
+            | Adler and Van Doren, How to Read a Book, 294.
 </template>
 
 <script>
