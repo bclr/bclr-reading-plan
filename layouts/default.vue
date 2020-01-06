@@ -25,7 +25,7 @@ export default {
   data () {
     return {
       options: {
-        licenseKey: 'YOUR KEY HERE',
+        licenseKey: 'K?cJZsO&v0',
         controlArrows: true,
         verticalCentered: false,
         scrollOverflow: true,
