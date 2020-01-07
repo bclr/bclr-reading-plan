@@ -17,7 +17,7 @@ export default {
   },
   computed: {
     bibleGatewayUrl () {
-      return `http://www.biblegateway.com/bible?language=en&version=NASB&passage=${this.sanitizeRef(this.reference, '+')}:1`
+      return `http://www.biblegateway.com/bible?language=en&version=NASB&passage=${this.sanitizeRef(this.reference, '+')}`
     },
     youversionUrl () {
       return `youversion://bible?reference=${this.sanitizeRef(this.reference, '.')}.1`
