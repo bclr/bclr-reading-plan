@@ -51,7 +51,7 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 
   .section {
