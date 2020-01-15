@@ -29,7 +29,7 @@ export default {
         controlArrows: true,
         verticalCentered: false,
         scrollOverflow: true,
-        css3: true
+        css3: false
       }
     }
   },
