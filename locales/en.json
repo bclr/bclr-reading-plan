@@ -20,7 +20,8 @@
   },
   "actions": {
     "download": "Download Full Plan",
-    "read_primer": "Read Primer"
+    "read_primer": "Read Primer",
+    "february": "February Reading Tips"
   },
   "bible": {
     "books": [
