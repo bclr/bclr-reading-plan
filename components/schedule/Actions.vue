@@ -3,8 +3,8 @@
     a.btn.btn-outline-dark.text-light(href="/2020BCLRReadingTogether.pdf")
       span {{ $t('actions.download') }} &nbsp;
       i.fa.fas.fa-download
-    a.m-1.btn.btn-outline-dark.text-light(href="/february")
-      span {{ $t('actions.february') }} &nbsp;
+    a.m-1.btn.btn-outline-dark.text-light(href="/March_Reading.pdf")
+      span {{ $t('actions.march') }} &nbsp;
       i.fa.fas.fa-book
 </template>
 

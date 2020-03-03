@@ -21,7 +21,8 @@
   "actions": {
     "download": "Download Full Plan",
     "read_primer": "Read Primer",
-    "february": "February Reading Tips"
+    "february": "February Reading Tips",
+    "march": "March Reading Tips"
   },
   "bible": {
     "books": [
