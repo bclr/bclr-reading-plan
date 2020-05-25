@@ -19,7 +19,7 @@ export default {
 
 <style>
   .footer-links {
-    height: 3rem;
+    height: 2.75rem;
   }
   .fp-controlArrow {
     position: absolute;

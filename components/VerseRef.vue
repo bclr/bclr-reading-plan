@@ -37,7 +37,7 @@ export default {
 <style>
   .verse-ref {
     color: #002345;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .youversion {
     width: 1.3rem;

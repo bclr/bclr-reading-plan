@@ -36,6 +36,6 @@ export default {
   .day-title {
     color: #f8f9fa;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 </style>

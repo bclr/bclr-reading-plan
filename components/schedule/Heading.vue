@@ -38,7 +38,7 @@ export default {
     font-size: 1.15em;
   }
   .display-4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.2;
   }
